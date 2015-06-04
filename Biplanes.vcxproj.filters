@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{22e43d9f-c5dd-41ee-a725-e87bb34c395f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{13722afc-8f8f-4f66-ad8d-780ecfcb9036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawingTools">
+      <UniqueIdentifier>{781d8599-cfca-4ba5-8f4e-c576ad664012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawingTools">
+      <UniqueIdentifier>{09d82b3d-7e36-43da-b13c-3760e9e2781a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{e80fe6ba-6f5c-45fa-816c-346932bb69c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{aafec33c-1df6-44be-9edc-637a2c1174ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawingTools\Predrawed Elements">
+      <UniqueIdentifier>{f8ea0928-8e5e-4947-ab31-e5949bf6503f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawingTools\Predrawed Elements\Background">
+      <UniqueIdentifier>{739ea279-59ec-464c-a178-1d673a8c8d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DrawingTools\Predrawed Elements\Buttons">
+      <UniqueIdentifier>{a0e236a2-b5a8-486f-bf62-3e8b7475e0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawingTools\Predrawed Elements">
+      <UniqueIdentifier>{487c8377-d3df-4e94-a97d-c1c1b3720f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawingTools\Predrawed Elements\Background">
+      <UniqueIdentifier>{23e72454-1430-4a25-8316-8c93e034beb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DrawingTools\Predrawed Elements\Buttons">
+      <UniqueIdentifier>{e2b559e9-2b08-4e6a-871e-53e943d7f078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes\Battle">
+      <UniqueIdentifier>{94dabf87-3bf1-4b19-8d53-cdf328b548f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes\Battle">
+      <UniqueIdentifier>{af9054bd-e487-4b9e-849d-448ce3811b69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameException.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SVector2.cpp">
+      <Filter>Source Files\DrawingTools</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveManager.cpp">
+      <Filter>Source Files\DrawingTools</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayModeSelect.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundRectangle.cpp">
+      <Filter>Source Files\DrawingTools\Predrawed Elements\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuBackground.cpp">
+      <Filter>Source Files\DrawingTools\Predrawed Elements\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\DrawingTools\Predrawed Elements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonPanel.cpp">
+      <Filter>Source Files\DrawingTools\Predrawed Elements\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\DrawingTools</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="Biplane.cpp">
+      <Filter>Source Files\Scenes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Source Files\Scenes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="WinScreen.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Options.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleVsPlayer.cpp">
+      <Filter>Source Files\Scenes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleVsAI.cpp">
+      <Filter>Source Files\Scenes\Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameException.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SVector2.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveManager.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="SRect.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayModeSelect.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuBackground.h">
+      <Filter>Header Files\DrawingTools\Predrawed Elements\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundRectangle.h">
+      <Filter>Header Files\DrawingTools\Predrawed Elements\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPanel.h">
+      <Filter>Header Files\DrawingTools\Predrawed Elements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\DrawingTools\Predrawed Elements\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidingObject.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Header Files\DrawingTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Biplane.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="WinScreen.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleVsPlayer.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleVsAI.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Header Files\Scenes\Battle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Biplanes.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+</Project>
